@@ -1,17 +1,27 @@
 import { useState } from 'react'
-import viteLogo from '/vite.svg'
 import './App.css'
 import Navbar from './components/Navbar'
-import Hero from './components/hero'
+import Home from './components/Home'
+import {BrowserRouter, Route, Routes} from 'react-router-dom'
+import About from './components/About'
+import Skills from './components/Skills'
+import Contact from './components/Contact'
+import Portfolio from './components/Portfolio'
+import Footer from './components/Footer'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <>
-      <Navbar/>
-      <Hero/>
-    </>
+    <BrowserRouter>
+    <Navbar/>
+    <Routes>
+    <Route path='/' element={<Home/>}/>
+    <Route path='/skills' element={<Skills/>}/>
+    <Route path='/portfolio' element={<Portfolio/>}/>
+    <Route path='/contact' element={<Contact/>}/>
+    </Routes>
+    <Footer/>
+    </BrowserRouter>
   )
 }
 
