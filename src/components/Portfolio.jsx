@@ -1,7 +1,7 @@
 import React from "react";
 import filmVaultPic from "../assets/filmVaultPic.jpeg";
 import weatherAppImg from "../assets/WeatherAppPng.png";
-import finaceTracker from "../assets/FinancetrackerImg.jpeg";
+import finaceTracker from "../assets/FinancetrackerIMg.jpeg";
 
 function Portfolio() {
   const projects = [
