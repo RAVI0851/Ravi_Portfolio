@@ -80,13 +80,13 @@ const Contact = () => {
           {/* to skip CAPTCHA */}
           <input type="hidden" name="_captcha" value="false" />
 
-          {/* to redirect after submission */}
+          {/* to redirect after submission
           <input
             type="hidden"
             name="_next"
             value="http://localhost:5173/thankyou"
             
-          />
+          /> */}
           <textarea
             type="text"
             name="message"
