@@ -5,14 +5,14 @@ import finaceTracker from "../assets/FinancetrackerImg.jpeg";
 
 const Portfolio = () => {
   return (
-    <div className="bg-[#31065A] w-full text-white items-center flex flex-col gap-[2rem] ">
-      <h1 className="underline underline-offset-[0.5rem] w-full text-center m-[2rem] text-2xl mt-0">
+    <div className="bg-[#31065A] w-full text-white items-center flex flex-col gap-[2rem]  ">
+      <h1 className="underline underline-offset-[1rem] w-full text-center m-[2rem] p-2 text-4xl">
         Portfolio
       </h1>
       {/* Project1 */}
-      <div className="flex h-[12rem] w-full border justify-stretch rounded-xl md:w-1/2">
+      <div className="flex h-[12rem] w-full border justify-stretch rounded-xl md:w-1/2 ">
         {/* Left-half */}
-        <div className="flex  h-full w-[12rem] bg-cover">
+        <div className="flex  h-full w-[12rem] bg-cover ">
           <img src={filmVaultPic} alt="" />
         </div>
         {/* Right half */}
