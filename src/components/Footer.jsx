@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 function Footer() {
   return (
-    <div className='flex items-center justify-center bg-[#31065A] text-white '>
+    <div className='flex items-center justify-center bg-[#31065A] text-white p-4'>
       <span>
         Made with 
         <span class="text-rose-500">❤</span>
