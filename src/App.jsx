@@ -8,6 +8,7 @@ import Skills from './components/Skills'
 import Contact from './components/Contact'
 import Portfolio from './components/Portfolio'
 import Footer from './components/Footer'
+import ThankYou from './components/ThankYou'
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
     <Route path='/skills' element={<Skills/>}/>
     <Route path='/portfolio' element={<Portfolio/>}/>
     <Route path='/contact' element={<Contact/>}/>
+    <Route path='/thankyou' element={<ThankYou/>}/>
     </Routes>
     <Footer/>
     </BrowserRouter>

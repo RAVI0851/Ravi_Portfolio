@@ -22,12 +22,14 @@ const Portfolio = () => {
           </h1>
           <div className="flex gap-[3rem]">
             <a
+              target="_blank"
               href="https://movies-eta-green.vercel.app/"
               className="bg-blue-400 rounded-xl p-2 hover:scale-110"
             >
               Demo
             </a>
             <a
+              target="_blank"
               href="https://github.com/RAVI0851/Film-Vault"
               className="bg-black rounded-xl p-2 hover:scale-110"
             >
@@ -49,12 +51,14 @@ const Portfolio = () => {
           </h1>
           <div className="flex gap-[3rem]">
             <a
+              target="_blank"
               href="https://ravi0851.github.io/Weather-app/"
               className="bg-blue-400 rounded-xl p-2 hover:scale-110"
             >
               Demo
             </a>
             <a
+              target="_blank"
               href="https://github.com/RAVI0851/Weather-app"
               className="bg-black rounded-xl p-2 hover:scale-110"
             >
@@ -76,12 +80,14 @@ const Portfolio = () => {
           </h1>
           <div className="flex gap-[3rem]">
             <a
+              target="_blank"
               href="https://ravi0851.github.io/Personal-finance-tracker/"
               className="bg-blue-400 rounded-xl p-2 hover:scale-110"
             >
               Demo
             </a>
             <a
+              target="_blank"
               href="https://github.com/RAVI0851/Personal-finance-tracker"
               className="bg-black rounded-xl p-2 hover:scale-110"
             >
