@@ -52,7 +52,7 @@ function Skills() {
     <div className=' grid mx-auto my-auto max-w-[30rem] grid-cols-3  gap-x-0 gap-y-0 justify-center items-center '>
       {Skills.map((skill)=>{
         return <div className='border border-0.5 border-white flex flex-col items-center hover:scale-105'>
-          <img className='h-[8rem] w-[8rem] md:h-[8rem] md:w-[8rem]' src={skill.icon} alt="hello" />
+          <img className='h-[8rem] w-[8rem] md:h-[8rem] md:w-[8rem]' loading='lazy' src={skill.icon} alt="hello" />
           <span className='text-white'>{skill.name}</span>
         </div>
       })}

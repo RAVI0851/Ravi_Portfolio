@@ -35,7 +35,7 @@ function Portfolio() {
         <div className="flex h-[12rem] w-full border justify-stretch rounded-xl md:w-1/2 ">
           {/* Left-half */}
           <div className="flex  h-full w-[12rem] bg-cover ">
-            <img src={project.img} alt="" />
+            <img src={project.img} loading='lazy' alt="" />
           </div>
           {/* Right half */}
           <div className="flex  flex-col gap-[3rem] m-[1rem] ">
