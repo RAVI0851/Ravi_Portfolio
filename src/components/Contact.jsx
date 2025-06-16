@@ -5,7 +5,7 @@ const Contact = () => {
     name: "",
     email: "",
     subject: "",
-    phone: +91,
+    phone: "",
     message: ""
   });
 
@@ -43,6 +43,7 @@ const Contact = () => {
         >
           <input
             type="text"
+            required
             name="name"
             value={formData.name}
             placeholder="Enter your Full Name"
@@ -52,6 +53,7 @@ const Contact = () => {
           <input
             type="email"
             name="email"
+            required
             value={formData.email}
             placeholder="Enter your email"
             className="border w-full bg-[#43366A] rounded-3xl p-2 placeholder-white"
@@ -60,8 +62,11 @@ const Contact = () => {
           <div className="flex gap-[1rem]">
             <input
               type='tel'
+              required
               name="phone"
               value={formData.phone}
+              pattern="[0-9]{10}" 
+              maxLength={10}
               placeholder="Phone Number"
               className="border w-1/2 bg-[#43366A] rounded-3xl p-2 placeholder-white"
               id=""
