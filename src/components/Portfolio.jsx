@@ -12,10 +12,10 @@ function Portfolio() {
       repo:"https://github.com/RAVI0851/Film-Vault"
     },
     {
-      title:'Basic Weather App',
-      img:weatherAppImg,
-      demo:"https://ravi0851.github.io/Weather-app/",
-      repo:"https://github.com/RAVI0851/Weather-app"
+      title:'Insider Jobs',
+      img:jobportalimg,
+      demo:"https://insider-jobs-six.vercel.app/",
+      repo:"https://github.com/RAVI0851/InsiderJobs"
     },
     {
       title:'Personal Finance Tracker',
