@@ -1,6 +1,6 @@
 import React from "react";
 import filmVaultPic from "../assets/filmVaultPic.jpeg";
-import weatherAppImg from "../assets/WeatherAppPng.png";
+import jobportalImg from "../assets/jobportalimg";
 import finaceTracker from "../assets/FinancetrackerIMg.jpeg";
 
 function Portfolio() {
@@ -12,10 +12,10 @@ function Portfolio() {
       repo:"https://github.com/RAVI0851/Film-Vault"
     },
     {
-      title:'Basic Weather App',
-      img:weatherAppImg,
-      demo:"https://ravi0851.github.io/Weather-app/",
-      repo:"https://github.com/RAVI0851/Weather-app"
+      title:'Insider Jobs',
+      img:jobportalImg,
+      demo:"https://insider-jobs-six.vercel.app/",
+      repo:"https://github.com/RAVI0851/Ravi_Portfolio"
     },
     {
       title:'Personal Finance Tracker',
